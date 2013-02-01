@@ -37,6 +37,7 @@ group :development, :test do
   gem 'pry'
 end
 
+gem 'activerecord-import'
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'bcrypt-ruby'

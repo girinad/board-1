@@ -12,6 +12,7 @@ class Dashboard::ItemsController < Dashboard::ApplicationController
 
     if @item.save
       @item.set_tags params[:tags]
+      @item.set_tags_hashes
       flash[:notice] = t :item_created
       redirect_to dashboard_items_path
     else

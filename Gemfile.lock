@@ -28,6 +28,8 @@ GEM
       activesupport (= 3.2.11)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-import (0.3.0)
+      activerecord (~> 3.0)
     activeresource (3.2.11)
       activemodel (= 3.2.11)
       activesupport (= 3.2.11)
@@ -289,6 +291,7 @@ PLATFORMS
 
 DEPENDENCIES
   authority
+  activerecord-import
   bcrypt-ruby
   capistrano
   capistrano-unicorn
